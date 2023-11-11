@@ -13,6 +13,7 @@ class FlexPage(Page):
         [
             ("title_and_text", blocks.TitleAndTextBlock(classname="text_and_title")),
             ("full_richtext", blocks.RichTextBlock()),
+            ("cards", blocks.CardBlock())
         ], 
         use_json_field=True,
         null=True,
